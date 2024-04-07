@@ -1,10 +1,8 @@
-# Prompt the user to enter the number of pounds.
-pounds = int(input())
+def convert(lb):
+    for i in range(1, lb + 1):
+        kg = i * 0.453
+        kg = round(kg, 2)
+        print(f"{i} {kg}")
 
-# Initialize the kilograms variable.
-kilograms = 0
-
-# Loop through the range of pounds and print the equivalent kilograms.
-for i in range(1, pounds + 1):
-    kilograms += 0.45
-    print(f"{i} {kilograms:.2f}")
+lb = int(input())
+convert(lb)
