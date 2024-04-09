@@ -8,7 +8,6 @@ def num_pal(n):
         while num != 0:
             last_digit = num % 10
             rev_num = rev_num * 10 + last_digit
-            #print(f"Num: {num}, rev_num: {rev_num}")
             num = num // 10
         if rev_num == temp:
             count += 1
