@@ -1,13 +1,12 @@
 # Your solution to Exercise 22
 def pattern(num):
-    str_num = str(num)
-    if len(str_num) > 1:
-        for _ in range(len(str_num) - 1):
-            num = num // 10
-            print(num)
-    else:
+    if num < 10:
         print(num)
-
+    else:
+        num = num // 10
+        while num != 0:
+            print(num)
+            num = num // 10
 
 n = int(input())
 pattern(n)
