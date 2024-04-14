@@ -8,3 +8,6 @@ def errors(n):
 
 n = int(input())
 print(errors(n))
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
