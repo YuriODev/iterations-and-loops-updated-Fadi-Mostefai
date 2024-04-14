@@ -9,3 +9,6 @@ def even():
     return count
 
 print(even())
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting.
