@@ -249,7 +249,7 @@ class CustomTestCase(unittest.TestCase):
         Checks if the solution file uses string slicing.
         """
         content = self.file_content
-        return bool(re.search(r'\[.*:.*\]', content))
+        return bool(re.search(r'\[.*:.*\]', content)) or bool(re.search(r'str\(', content))
 
     def check_for_product_symbol(self):
         """
