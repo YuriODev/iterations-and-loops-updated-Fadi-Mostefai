@@ -5,3 +5,6 @@ def countdown(n):
 
 n = int(input())
 countdown(n)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
