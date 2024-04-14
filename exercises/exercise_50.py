@@ -19,3 +19,5 @@ def num_pal(n):
 n = int(input())
 print(num_pal(n))
 
+# Same Issue:
+# Function naming, parameter naming, and type hinting
