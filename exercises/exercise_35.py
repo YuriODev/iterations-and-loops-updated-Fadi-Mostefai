@@ -8,3 +8,9 @@ def odd(n):
 
 n = int(input())
 odd(n)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Note:
+# Variable naming is way better now, but the function name and parameter name can be improved.
