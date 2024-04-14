@@ -9,3 +9,9 @@ def odd_num(a,b):
 a = int(input())
 b = int(input())
 odd_num(a,b)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# That's definitely the most unique solution I've seen so far! :D
+# while loop condition is still branchy, but it's okay, it's unique! :)
