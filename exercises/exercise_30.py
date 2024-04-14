@@ -9,3 +9,6 @@ def amoeba(t):
 
 t = int(input())
 print(amoeba(t))
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
