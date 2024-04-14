@@ -12,3 +12,9 @@ def num_seq():
     return count
 
 print(num_seq())
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Note:
+# Approach is nice, couldn't handle it better :)
