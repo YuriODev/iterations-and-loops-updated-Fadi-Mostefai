@@ -21,4 +21,13 @@ def speed(n):
 
 n = int(input())
 print(speed(n))
-    
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
+
+# Notes:
+# 1. Else block is not needed. Explained before how return statement can be used to avoid else block.
+# 2. The function name and parameter name can be improved to:
+#   - `get_speed_difference_and_speed_count` or
+#   - `calculate_speed_difference_and_speed_count` or
+#   - `print_speed_difference_and_speed_count`
