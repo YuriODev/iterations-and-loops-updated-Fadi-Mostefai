@@ -11,3 +11,10 @@ def car(d, t):
 d = int(input())
 t = int(input())
 print(car(d,t))
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting.
+
+# Notes:
+# Well done with using f-strings for the return statement.
+# It was 100% perfect :)
