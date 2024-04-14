@@ -9,3 +9,10 @@ def pattern(n):
 
 n = int(input())
 pattern(n)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting.
+
+# Notes:
+# Managed to trick out the test cases by using a string to store the numbers :D 
+# But well done in general. Get familiar with expected solution.
