@@ -5,3 +5,6 @@ def pattern(n):
 
 n = int(input())
 pattern(n)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
