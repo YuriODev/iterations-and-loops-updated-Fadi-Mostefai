@@ -10,3 +10,9 @@ def temp_checker(d):
 
 d = int(input())
 print(temp_checker(d))
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting, temp variable
+
+# Note:
+# Brilliant approach for using ternary operator for the return statement!
