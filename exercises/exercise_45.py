@@ -11,3 +11,13 @@ def sign_changes():
     return count
 
 print(sign_changes())
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Note:
+# Can change function name to get_sign_changes() -> int:
+# Or get_count_of_sign_changes() -> int:
+
+# Logic is indeed correct, but can be even more simplified like in the solution
+# but I still like the approach, well done :)
