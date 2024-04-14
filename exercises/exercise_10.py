@@ -6,3 +6,6 @@ def convert(lb):
 
 lb = int(input())
 convert(lb)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
