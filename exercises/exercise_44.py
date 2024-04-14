@@ -13,3 +13,9 @@ def index():
     return i
 
 print(index())
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Logic is correct, but functin name and parameter name could be better, ex:
+# def get_index_of_largest_number() -> int:
