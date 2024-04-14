@@ -25,3 +25,15 @@ def three_digit(a,b):
 a = int(input())
 b = int(input())
 three_digit(a,b)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Notes:
+# 1. Very confusing to understand what 'count1' and 'count2' are doing
+# 2. Since we know limits of 4 digits, we can use a better approach, such as
+# extracting all 4 digits and checking if they are all different without any
+# need to use loops.
+# 3. Using set is a good idea, but the implementation is not optimal, they are
+# not needed at all in this case.
+
