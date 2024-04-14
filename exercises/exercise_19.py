@@ -9,3 +9,10 @@ def squares(n):
 
 n = int(input())
 squares(n)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
+
+# A few important things to note here:
+# 1. Expected to use % and // operators to extract digits from a number.
+# 2. Convertion to string is not necessary + can be memory intensive for large numbers.
