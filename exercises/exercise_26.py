@@ -13,3 +13,10 @@ def intsum(n):
 
 n = int(input())
 print(intsum(n))
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting.
+
+# Note:
+# Again, be careful with using "sum" for variable names.
+# Well done with using the digit splitting approach!
