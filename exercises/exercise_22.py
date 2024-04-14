@@ -10,3 +10,9 @@ def pattern(num):
 
 n = int(input())
 pattern(n)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
+
+# Nice trick with line 3 to check if the number is less than 10,
+# really liked it ! :)
