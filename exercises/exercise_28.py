@@ -9,3 +9,6 @@ def product(a,b):
 a = int(input())
 b = int(input())
 print(product(a,b))
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting, sum variable
