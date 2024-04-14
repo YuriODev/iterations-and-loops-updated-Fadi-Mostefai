@@ -5,3 +5,6 @@ def odd(b):
 
 b = int(input())
 odd(b)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
