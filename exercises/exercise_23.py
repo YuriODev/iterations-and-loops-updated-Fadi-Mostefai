@@ -15,3 +15,10 @@ def average():
     return av
 
 print(average())
+
+# Issue here:
+# Function naming, parameter naming, and type hinting.
+
+# Notes:
+# Line 7: if num == 0,  you could return 0.0 straight away without using
+# else statement, which makes the code cleaner and less overwhemling.
