@@ -22,3 +22,17 @@ def palindrome(n):
 
 n = int(input())
 palindrome(n)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Notes:
+# This is indeed a nice solution (!), but it is not a palindrome function.
+# It is a function that prints palindromic numbers up to n.
+# The function name should reflect this.
+
+# The approach is really unique, I never saw this before, well done! :)
+# Unfortunately, the solution will break once it reaches 1000, but it is still a nice approach!
+# The tests didn't cover the case, I believe.
+
+# I think you can try to refactor the code to make it work up to 10^5 using the same logic
