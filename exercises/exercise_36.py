@@ -20,3 +20,8 @@ def GCD(a, b):
 a = int(input())
 b = int(input())
 print(GCD(a,b))
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting.
+
+# Well done in general with both recursive and iterative solutions!
