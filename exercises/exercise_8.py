@@ -10,3 +10,14 @@ def even(n):
 
 n = int(input())
 even(n)
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
+
+# The function name should be changed to `even_numbers` to make it more descriptive.
+# Or ever better would be "print_even_numbers" to make it even more descriptive.
+
+# The trick with the elif in `if i < n-1` is not needed. 
+# The last `elif` statement can be changed to `else`.
+
+# Approach is creative although.
