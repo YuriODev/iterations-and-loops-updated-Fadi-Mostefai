@@ -14,3 +14,8 @@ def pal(a,b):
 a = int(input())
 b = int(input())
 pal(a,b)
+
+# Same Issue:
+# Function naming, parameter naming, and type hinting
+
+# Approach is nice, well done! :)
