@@ -9,3 +9,6 @@ def count(n):
 
 n = int(input())
 print(count(n))
+
+# Same issue here:
+# Function naming, parameter naming, and type hinting.
